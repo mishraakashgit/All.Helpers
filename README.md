@@ -1,17 +1,17 @@
-# MishraAllHelpers
+# Generic.Helpers.Attributes
 
 A simple and useful .NET utility library providing common helper functions for string manipulation, date handling, and validation.
 
 ## Installation
 
 ```bash
-dotnet add package MishraAllHelpers
+dotnet add package Generic.Helpers.Attributes
 ```
 
 Or via NuGet Package Manager:
 
 ```
-Install-Package MishraAllHelpers
+Install-Package Generic.Helpers.Attributes
 ```
 
 ## Features
