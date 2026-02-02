@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     
     <!-- NuGet Package Properties -->
-    <PackageId>All.Helpers</PackageId>
-    <Version>1.0.0</Version>
+    <PackageId>MishraAllHelpers</PackageId>
+    <Version>1.0.1</Version>
     <Authors>Akash Mishra</Authors>
     <Company>Akash Mishra</Company>
     <Description>A simple utility library with common helper functions for string manipulation, date handling, and validation.</Description>

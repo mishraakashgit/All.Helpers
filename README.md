@@ -1,17 +1,17 @@
-# MyUtilityPackage
+# MishraAllHelpers
 
 A simple and useful .NET utility library providing common helper functions for string manipulation, date handling, and validation.
 
 ## Installation
 
 ```bash
-dotnet add package MyUtilityPackage
+dotnet add package MishraAllHelpers
 ```
 
 Or via NuGet Package Manager:
 
 ```
-Install-Package MyUtilityPackage
+Install-Package MishraAllHelpers
 ```
 
 ## Features
@@ -42,7 +42,7 @@ Install-Package MyUtilityPackage
 ### String Extensions
 
 ```csharp
-using MyUtilityPackage.Extensions;
+using AllHelpers.Extensions;
 
 string text = "This is a very long string that needs truncating";
 string truncated = text.Truncate(20); // "This is a very lo..."
@@ -57,7 +57,7 @@ string titleCase = name.ToTitleCase(); // "John Doe"
 ### DateTime Extensions
 
 ```csharp
-using MyUtilityPackage.Extensions;
+using AllHelpers.Extensions;
 
 DateTime date = DateTime.Now;
 bool weekend = date.IsWeekend();
@@ -72,7 +72,7 @@ string relative = past.ToRelativeTime(); // "3 hours ago"
 ### Validation Utilities
 
 ```csharp
-using MyUtilityPackage.Utilities;
+using AllHelpers.Utilities;
 
 void ProcessName(string name)
 {
